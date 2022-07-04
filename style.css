@@ -9,19 +9,22 @@ h1 {
     color: orange;
 }
 
+section {
+    display: flex;
+    margin-bottom: 100px;
+}
+
 /* header section */
 
 .header {
-    display: flex;
-    height: 500px;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
-.h-article {
+.half-width {
     width: 50%;
-    padding-left: 3%;
+    padding-left: 5%;
 }
-.h-article img {
+.half-width img {
     width: 85%;
 }
 .link-btn {
@@ -31,4 +34,12 @@ h1 {
     background-image: linear-gradient(orange, tomato);
     padding: 10px 40px;
     border-radius: 10px;
+}
+
+/* dream big section */
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
